@@ -36,9 +36,6 @@ jobs:
       - name: Run Java Selenium Tests
         run: |
           mvn clean test
-          cd ./ca11y
-          ls -la
-          ls -la ../
       - name: UserWay Accessibility Analysis
         uses: UserWayOrg/cicd-action@qa
         with:
