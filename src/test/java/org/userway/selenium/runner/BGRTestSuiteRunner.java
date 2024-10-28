@@ -29,7 +29,7 @@ public class BGRTestSuiteRunner {
                         )
                         .screenshots(false)
                         .saveReport(true)
-                        .reportPath("./uw-a11y-reports")
+                        .reportPath("./ca11y/uw-a11y-reports")
                         .build()
         );
         backgroundRunner.enableBackgroundRunner();
