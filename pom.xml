@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.11.0</junit.version>
         <junit.suite.version>1.11.0</junit.suite.version>
-        <userway.version>0.0.10</userway.version>
+        <userway.version>0.0.13</userway.version>
         <selenium.version>4.18.1</selenium.version>
         <assertj.version>3.24.2</assertj.version>
         <logback.version>1.5.7</logback.version>

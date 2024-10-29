@@ -9,7 +9,6 @@ import org.userway.selenium.AccessibilityAuditor;
 import org.userway.selenium.model.config.AnalysisConfig;
 import org.userway.selenium.model.config.AuditConfig;
 import org.userway.selenium.model.report.AnalysisLevel;
-import org.userway.selenium.util.RecursiveDirectoryDelete;
 
 import java.io.File;
 
@@ -41,7 +40,7 @@ public class ManualScanTest {
     @DisplayName("Should scan page and save report")
     void shouldScanPageAndSaveReport() {
         // Open page
-        driver.get("https://userway.org/blog");
+        driver.get("https://google.com");
 
         // Prepare analysis configuration
         var analysisConfig = AnalysisConfig.builder()

@@ -27,7 +27,7 @@ public class BGRTestSuiteRunner {
                                         .includeRules(Set.of(Rule.SELECT_NAME))
                                         .build()
                         )
-                        .screenshots(false)
+                        .elementScreenshots(false)
                         .saveReport(true)
                         .reportPath("./ca11y/uw-a11y-reports")
                         .build()
