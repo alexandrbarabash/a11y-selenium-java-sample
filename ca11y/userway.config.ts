@@ -5,7 +5,7 @@ export default {
     organization: 'maksym-panov-userway-org',
     project: 'a11y-selenium-java-sample',
     reportPaths: ['./ca11y/uw-a11y-reports'],
-    server: "https://api.dev.userway.dev",
+    server: "https://api.qa.userway.dev",
     override: {
         'main': {
             retention: 'long',
