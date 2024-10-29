@@ -37,7 +37,7 @@ jobs:
         run: |
           mvn clean test
       - name: UserWay Accessibility Analysis
-        uses: UserWayOrg/cicd-action@qa
+        uses: UserWayOrg/cicd-action@dev
         with:
           token: ${{ secrets.USERWAY_TOKEN }}
           config_path: './ca11y/userway.config.ts'
