@@ -39,5 +39,5 @@ jobs:
       - name: UserWay Accessibility Analysis
         uses: UserWayOrg/cicd-action@dev
         with:
-          token: ${{ secrets.USERWAY_TOKEN }}
+          token: 'j7muul7nb40ze6k6tdxp4uj2qrzptflpfuxsfzae'
           config_path: './ca11y/userway.config.ts'
