@@ -7,6 +7,7 @@ of using the integration - manual and background runner mode.
 To use UserWay Selenium testing solution you should first of all
 install all the required dependencies:
 
+
 ```xml
 <dependencies>
     <dependency>
