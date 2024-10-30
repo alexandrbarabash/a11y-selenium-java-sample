@@ -129,4 +129,4 @@ mvn clean test
 
 NOTE: We use Logback as implementation of Slf4j in this sample project. 
 If you want to change log level for tests, you should update configuration
-in `src/test/resources/logback.xml` file.
+in `src/test/resources/logback.xml` file. 
